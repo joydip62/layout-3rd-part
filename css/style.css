@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #d4d4d4;
+    text-align: center;
+    padding: 10px;
+    overflow: hidden;
+}
+header figure{
+    width: 20%;
+    float: left;
+}
+header img{
+    width: 50px;
+}
+header ul{
+    width: 80%;
+    float: left;
+}
+header ul li{
+    display: inline;
+    margin: 20px;
+}
+header ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+/*1st part css start*/
+.banner{
+    background-color: #80712f;
+    color: white;
+    text-align: center;
+}
+
+.banner h1{
+    padding: 10%;
+}
+
+.content{
+    overflow: hidden;
+    text-align: center;
+    font-size: 26px;
+}
+.content .left-content{
+    float: left;
+    background-color: #ffd625;
+    color: black;
+    width: 50%;
+    height: 200px;
+}
+.content .right-content{
+    float: right;
+    background-color: #c8a81d;
+    color: white;
+    width: 50%;
+    height: 200px;
+}
+
+/*
+.item{
+    overflow: hidden;
+}
+.item .item1{
+    background-color: grey;
+    color: white;
+    width: 33.33%;
+    float: left;
+    text-align: center;
+    padding: 10% 0;
+}
+.item .item2{
+    background-color: #c7c7c7;
+    color: white;
+    width: 33.33%;
+    float: left;
+    text-align: center;
+    padding: 10% 0;
+}
+.item .item3{
+    background-color: #e6e6e6;
+    color: #050505;
+    width: 33.33%;
+    float: left;
+    text-align: center;
+    padding: 10% 0;
+}
+
+
+*/
+.item{
+    display: flex;
+    text-align: center;
+}
+.item .item1{
+    background-color: grey;
+    width: 33.33%;
+    padding: 10% 0;
+}
+.item .item2{
+    background-color: #c7c7c7;
+    width: 33.33%;
+    padding: 10% 0;
+}
+.item .item3{
+    background-color: #e6e6e6;
+    width: 33.33%;
+    padding: 10% 0;
+}
+/*1st part css end*/
+
+
+
+/*2nd part starts*/
+.content{
+    display: flex;
+    font-size: 20px;
+    text-align: center;
+}
+.content .nav{
+    width: 20%;
+    padding: 10% 0;
+    background-color: #d0ad20;
+    color: black;
+}
+.content .article{
+    width: 60%;
+    padding: 10% 0;
+    background-color: #eec624;
+    color: black;
+    overflow: hidden;
+}
+.content .article .sub-article-header{
+    background-color: darkmagenta;
+    color: white;
+}
+.content .article .sub-left-article{
+    background-color: blue;
+    width: 50%;
+    float: left;
+    height: 100px;
+}
+.content .article .sub-right-article{
+    background-color: #16d3ff;
+    width: 50%;
+    float: left;
+    height: 100px;
+}
+
+.content .article .sub-article-footer{
+    background-color: brown;
+    color: white;
+}
+
+.content .ads{
+    width: 20%;
+    padding: 10% 0;
+    background-color: rgba(255, 214, 37, 0.47);
+    color: black;
+}
+/*2nd part end*/
+
+
+/*3rd part start*/
+.content-third{
+    display: flex;
+    font-size: 20px;
+    text-align: center;
+}
+.content-third .main-left{
+    width: 20%;
+    background-color: #d0ad20;
+    color: black;
+}
+.content-third .main-article{
+    width: 60%;
+    background-color: #eec624;
+    color: black;
+    overflow: hidden;
+}
+.content-third .main-article .sub-article-header{
+    background-color: darkmagenta;
+    color: white;
+}
+.content-third .main-article .sub-left-article{
+    background-color: blue;
+    width: 50%;
+    float: left;
+    height: 200px;
+}
+.content-third .main-article .sub-right-article{
+    background-color: #16d3ff;
+    width: 50%;
+    float: left;
+    height: 200px;
+}
+
+.content-third .main-article .sub-article-footer{
+    background-color: brown;
+    color: white;
+}
+
+.content-third .main-right{
+    width: 20%;
+    background-color: rgba(255, 214, 37, 0.47);
+    color: black;
+}
+/*3rd part end*/
+footer{
+    padding: 15px 0;
+    background-color: #bcb0a2;
+    color: black;
+    text-align: center;
+}
+
